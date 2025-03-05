@@ -7,7 +7,7 @@ spec:
   # docker run -d --name nginx nginx
   - name: nginx
     image: nginx:stable-perl
-  tolarations:
+  tolerations:
   - key: "hardware"
     operator: "Equal"
     value: "gpu"
